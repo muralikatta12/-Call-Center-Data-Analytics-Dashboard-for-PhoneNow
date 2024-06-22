@@ -5,7 +5,7 @@
  - [Data Sources](#Data-Sources)
  - [Findings](#Findings-from-Pizza-Sales-Analysis)
  - [Tools](#Tools)
- - [Key performance indicators](#Key performance indicators)
+ - [Key performance indicators](#Key-performance-indicators)
 ### Project Overview 
 
 
