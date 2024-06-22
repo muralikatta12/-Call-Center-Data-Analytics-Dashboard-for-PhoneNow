@@ -71,6 +71,17 @@ PhoneNow’s Call Center Manager, Claire, seeks a Power BI dashboard for compreh
 
 ### Findings from Pizza Sales Analysis
 
+- The highest number of calls per month was recorded in January, totaling 1455 calls.
+
+- In January, all 1455 calls were answered.
+
+- Additionally, there were 317 calls in January that were not answered.
+
+- The majority of the calls that were answered and resolved were handled by the agent **Jim**.
+
+
+
+
 
 
 
