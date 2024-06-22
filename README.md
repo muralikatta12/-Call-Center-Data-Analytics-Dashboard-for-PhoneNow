@@ -1,0 +1,2 @@
+# -Call-Center-Data-Analytics-Dashboard-for-PhoneNow
+PhoneNow’s Call Center Manager, Claire, seeks a Power BI dashboard for comprehensive insights into call center operations. The dashboard will visualize KPIs like customer satisfaction, calls answered/abandoned, call volume trends, average speed of answer, and agent performance.The goal is to provide clear,actionable data for management discussions.
