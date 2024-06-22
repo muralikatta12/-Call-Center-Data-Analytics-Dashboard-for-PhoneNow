@@ -69,6 +69,8 @@ PhoneNow’s Call Center Manager, Claire, seeks a Power BI dashboard for compreh
 ### output
 <img width="119" alt="image" src="https://github.com/muralikatta12/Call-Center-Data-Analytics-Dashboard-for-PhoneNow/assets/124357793/02bdf72a-acbd-4f0e-9a9f-2017f898d8a3">
 
+### Findings from Pizza Sales Analysis
+
 
 
 
