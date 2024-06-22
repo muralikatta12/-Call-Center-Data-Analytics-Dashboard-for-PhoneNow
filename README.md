@@ -18,4 +18,60 @@ PhoneNow’s Call Center Manager, Claire, seeks a Power BI dashboard for compreh
 - Excel - Data cleaning and Data Standardization
 - SQL Server - Data analysis
 - Power BI - creating a reports
+### KPI'S
+
+1. Overall Customer Satisfaction
+     ```
+         SELECT Agent, ROUND(AVG([Satisfaction rating]),2) AS avg_Satisfaction_rating
+         FROM call_center
+         GROUP BY Agent; ```
+### output
+<img width="167" alt="image" src="https://github.com/muralikatta12/Call-Center-Data-Analytics-Dashboard-for-PhoneNow/assets/124357793/d41b9748-1c19-420d-8bfe-87dc3f57789a">
+2. Calls by time
+    '''
+    
+        select  datename(month,Date ) as Month  , count(distinct [Call Id]) as [number of calls] , 
+        [Answered (Y/N)]
+        from Call_center 
+        group by datename(month,Date ) , [Answered (Y/N)];
+        '''
+### output 
+<img width="220" alt="image" src="https://github.com/muralikatta12/Call-Center-Data-Analytics-Dashboard-for-PhoneNow/assets/124357793/bbc1d8b5-fbfb-47b8-b8be-90980fe3f86d">
+
+3. Overall calls Answered 
+     ``` 
+     
+        SELECT Agent, 
+             COUNT(DISTINCT CASE WHEN [Answered (Y/N)] = 'Y' THEN [Call Id] ELSE NULL END) AS answered
+        FROM  call_center
+        GROUP BY  Agent;
+        '''
+
+### output
+<img width="122" alt="image" src="https://github.com/muralikatta12/Call-Center-Data-Analytics-Dashboard-for-PhoneNow/assets/124357793/48e8409f-8305-4a31-bfcc-f32f8d1e1664">
+
+4. Average speed of answer
+```
+      select Agent ,round(AVG([Speed of answer in seconds]),2) as spped_in_sec
+      from call_center 
+      group by Agent;
+   ```
+### output
+<img width="144" alt="image" src="https://github.com/muralikatta12/Call-Center-Data-Analytics-Dashboard-for-PhoneNow/assets/124357793/03ab9221-72d4-4635-9314-080561c514f5">
+
+5. overall problems in calls resolved
+   ``` SELECT 
+    Agent, 
+    COUNT(DISTINCT CASE WHEN Resolved = 'Y' THEN [Call Id] ELSE NULL END) AS Resolved
+   FROM Call_center
+   GROUP BY Agent;
+   ```
+### output
+<img width="119" alt="image" src="https://github.com/muralikatta12/Call-Center-Data-Analytics-Dashboard-for-PhoneNow/assets/124357793/02bdf72a-acbd-4f0e-9a9f-2017f898d8a3">
+
+
+
+
+
+
   
