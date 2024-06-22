@@ -5,7 +5,7 @@
  - [Data Sources](#Data-Sources)
  - [Findings](#Findings-from-Pizza-Sales-Analysis)
  - [Tools](#Tools)
- - [KPI'S](#KPI'S)
+ - [Key performance indicators](#Key performance indicators)
 ### Project Overview 
 
 
@@ -24,7 +24,7 @@ PhoneNow’s Call Center Manager, Claire, seeks a Power BI dashboard for compreh
 - Excel - Data cleaning and Data Standardization
 - SQL Server - Data analysis
 - Power BI - creating a reports
-### KPI'S
+### Key performance indicators
 - Overall customer satisfaction
 - Overall calls answered/abandoned
 - Calls by time
