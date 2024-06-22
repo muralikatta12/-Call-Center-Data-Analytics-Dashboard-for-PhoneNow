@@ -1,5 +1,10 @@
 # Call Center Data Analytics Dashboard for PhoneNow
 
+## Table of contents
+ - [Project Overview](#project-overview)
+ - [Data Sources](#Data-Sources)
+ - [Findings](#Findings from Pizza Sales Analysis)
+
 ### Project Overview 
 
 
