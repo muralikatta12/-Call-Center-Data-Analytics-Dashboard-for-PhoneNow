@@ -3,8 +3,9 @@
 ## Table of contents
  - [Project Overview](#project-overview)
  - [Data Sources](#Data-Sources)
- - [Findings](#Findings from Pizza Sales Analysis)
-
+ - [Findings](#Findings-from-Pizza-Sales-Analysis)
+ - [Tools](#Tools)
+ - [KPI'S](#KPI'S')
 ### Project Overview 
 
 
@@ -24,6 +25,10 @@ PhoneNow’s Call Center Manager, Claire, seeks a Power BI dashboard for compreh
 - SQL Server - Data analysis
 - Power BI - creating a reports
 ### KPI'S
+- Overall customer satisfaction
+- Overall calls answered/abandoned
+- Calls by time
+- Average speed of answer
 
 1. Overall Customer Satisfaction
      ```
